@@ -1,7 +1,19 @@
-# Ignore model weights and temporary data
-*.h5
-*.ckpt
+# Ignore data and models
+data/*
+!data/sample_images/
+models/*
+outputs/logs/*
+outputs/plots/*
+
+# Python and Jupyter artifacts
 __pycache__/
-data/raw/
-models/saved_model/
-outputs/logs/
+*.pyc
+*.pyo
+*.ipynb_checkpoints/
+
+# Environment and config files
+.env
+.DS_Store
+
+# VSCode and system-specific
+.vscode/
