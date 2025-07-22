@@ -1,0 +1,7 @@
+# Ignore model weights and temporary data
+*.h5
+*.ckpt
+__pycache__/
+data/raw/
+models/saved_model/
+outputs/logs/
