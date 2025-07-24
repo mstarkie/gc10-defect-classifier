@@ -36,7 +36,16 @@ Uses a MobileNetV2 CNN with transfer learning to classify 10 surface defect type
 - Crease (Cr)
 - Waist Folding (Wf)
 
-These defects can be grouped into structural, contamination, deformation, or process-related categories.
+## 🧩 Optional Class Grouping for Shipbuilding Context
+
+To simulate how a QA engineer or automated system might interpret defect relevance in a shipyard environment, the 10 defects can be grouped into broader categories:
+
+| Group                  | Classes Included                          | Relevance to Shipbuilding                                        |
+|------------------------|-------------------------------------------|------------------------------------------------------------------|
+| Physical Deformation   | Punching, Crease, Waist Folding, Crescent Gap | Panel fit-up issues, weld distortion, or surface flatness concerns |
+| Surface Contamination  | Water Spot, Oil Spot, Silk Spot           | May interfere with paint/coating adhesion and corrosion protection |
+| Structural/Embedded Defects | Inclusion, Rolled Pit              | Potential welding faults, fatigue points, or surface weaknesses  |
+| Process Marker         | Weld Line                                 | Alignment feature, not a defect—needs to be tracked or avoided   |
 
 ## 📈 Results
 
