@@ -15,9 +15,8 @@ This project applies deep learning to classify steel surface defects using the G
 ## 🚀 Getting Started
 
 1. Clone this repository
-2. Download and extract the [GC10-DET dataset](https://www.kaggle.com/code/jasonkung98/defects-classification-for-steel-defects-gc10-det) into `data/raw/` 
-3. Preprocess the data into `train/` and `val/` folders
-4. Run the notebook in `notebooks/GC10_Classifier_Training.ipynb`
+2. This is all based on Jason Kung's work on Kaggle [GC10-DET dataset](https://www.kaggle.com/code/jasonkung98/defects-classification-for-steel-defects-gc10-det) 
+3. Run the notebook in `notebooks/GC10_Defect_Classifier_Starter_Notebook.ipynb`
 
 ## 🧠 Model
 
