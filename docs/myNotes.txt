@@ -1,0 +1,25 @@
+#####################################################
+# My thoughts as I go through the learning exercise #
+# Some of this information may be entirely wrong :) #
+#####################################################
+
+A label is the correct answer you want the model to predict. 
+The defect classification ('crease', 'oil_spot', etc.)
+
+TRAINING:
+Labels are used to compute how far off the model's predictions are (loss), so the model can learn.
+
+EVALUATION:
+During evaluation: Labels are compared to predictions to compute accuracy, precision, etc.
+
+Create the training data:
+Two arrays sorted by image file name.  
+imgs_train = the image file jpeg paths sorted by image name
+xmls_train = Just the image file names sorted by image name
+labels     = The set of all the classifications taken from the pathnames in the imgs_train array
+
+/// set up pandas data frame based on the list of labels ///
+
+Create a 2D data frame of the classification indecies from the labels list and their associated one-hot class vector
+Create the label dataset, a tuple consisting of [224 x 224 x 3] array of pixes and the classification
+Take 80% of the dataset to use as training and 20% to test
