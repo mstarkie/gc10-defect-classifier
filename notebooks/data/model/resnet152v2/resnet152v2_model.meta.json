@@ -1,0 +1,22 @@
+{
+  "class_names": [
+    "crease",
+    "crescent_gap",
+    "inclusion",
+    "oil_spot",
+    "punching_hole",
+    "rolled_pit",
+    "silk_spot",
+    "waist folding",
+    "water_spot",
+    "welding_line"
+  ],
+  "dataset_sig": "7627d85e373593c6131b613dbd31676590128f29",
+  "image_size": [
+    224,
+    224
+  ],
+  "model_arch": "resnet152v2",
+  "num_classes": 10,
+  "preprocessing": "rescale(1/255)"
+}
